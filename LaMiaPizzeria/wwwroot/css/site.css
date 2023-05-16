@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+main {
+    background-image: url("../img/sondo1.jpg");
+}
+
+
+
+.conteiner-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    row-gap: 50px;
+}
+
+
+
+.menu {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.font {
+    font-family: Georgia,Times,Times New Roman,serif;
+}
+
+
+.nav {
+    background-color: orange;
+    color: white;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    background-color: orange;
+}
+
+.social{
+    height: 15px;
+}
